@@ -21,10 +21,10 @@ public class ContactController {
 	private static List<Contact> contacts = new ArrayList<Contact>();
 	 
     static {
-        contacts.add(new Contact("Barack", "Obama", "barack.o@whitehouse.com", "147-852-965"));
-        contacts.add(new Contact("George", "Bush", "george.b@whitehouse.com", "785-985-652"));
-        contacts.add(new Contact("Bill", "Clinton", "bill.c@whitehouse.com", "236-587-412"));
-        contacts.add(new Contact("Ronald", "Reagan", "ronald.r@whitehouse.com", "369-852-452"));
+        contacts.add(new Contact("Test1", "Test1LN", "test1@email.com", "147-852-965"));
+        contacts.add(new Contact("Test2", "Test2LN", "test2@email.com", "147-852-455"));
+        contacts.add(new Contact("Test3", "Test3LN", "test3@email.com", "144-852-455"));
+        contacts.add(new Contact("Test4", "Test4LN", "test4@email.com", "147-852-411"));
     }
 	
     
